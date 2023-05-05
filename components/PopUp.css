@@ -1,0 +1,59 @@
+.popup{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+
+    background-color: rgba(0,0,0,0.2);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+    .popup-inner{
+        position: relative;
+        padding: 32px;
+        width: 40%;
+        max-width: 640px;
+        background-image: linear-gradient(-45deg,#009879 0%, #fbfcdb 100%);
+    
+    }
+
+.popup-inner .close-btn{
+    position: absolute;
+    color:white;
+    top:16px;
+    left: 32px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    background-color: #009879;
+    
+}
+.done-btn{
+    color:white;
+    position: absolute;
+    top:16px;
+    right: 32px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    background-color:#009879;
+}
+form{
+    display:grid;
+}
+
+form>input{
+    width:50;
+    margin-top:10px;
+}
+
+h1{
+    margin-left:auto;
+    margin-right: auto;
+
+}
